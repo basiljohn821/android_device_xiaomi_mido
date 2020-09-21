@@ -1,0 +1,23 @@
+allow init wcnss_device:chr_file write;
+allow qti_init_shell {
+    fm_prop
+}:property_service set;
+
+# Allow init to bind mount loader config for media swcodec
+allow init system_file:file mounton;
+
+# adsprpcd
+allow init adsprpcd_file:filesystem { mount relabelfrom relabelto };
+
+# LEDs
+allow init sysfs_leds:lnk_file read;
+
+allow init sysfs:file setattr;
+
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
+# Allow init to chown/chmod on pseudo files in /sys
+allow init sysfs_type:file { setattr };
+
+allow init vendor_file:file { execute };
