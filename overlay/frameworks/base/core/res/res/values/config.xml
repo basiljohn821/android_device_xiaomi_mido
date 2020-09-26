@@ -600,7 +600,6 @@
     </string-array>
 
 
-<<<<<<< HEAD
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
@@ -615,15 +614,12 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
-=======
->>>>>>> d660315... mido: overlay: UI should be more smooth
     <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
-<<<<<<< HEAD
     <!-- Enable pocket mode -->
     <bool name="config_proxiSensorWakupCheck">true</bool> 
 
@@ -647,6 +643,4 @@
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
-=======
->>>>>>> d660315... mido: overlay: UI should be more smooth
 </resources>
