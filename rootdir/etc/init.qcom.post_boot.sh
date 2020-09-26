@@ -5631,7 +5631,7 @@ if [ "$panel_model" == "panel_name=nt35596 tianma fhd video mode dsi panel" ]; t
     fi
 
     echo "1" > /sys/devices/platform/kcal_ctrl.0/kcal_enable
-    echo "243 243 243" > /sys/devices/platform/kcal_ctrl.0/kcal
+    echo "232 232 232" > /sys/devices/platform/kcal_ctrl.0/kcal
     echo "258" > /sys/devices/platform/kcal_ctrl.0/kcal_sat
 fi
 
@@ -5643,6 +5643,6 @@ if [ "$panel_model" == "panel_name=nt35532 fhd video mode dsi panel" ]; then
     fi
 
     echo "1" > /sys/devices/platform/kcal_ctrl.0/kcal_enable
-    echo "243 243 243" > /sys/devices/platform/kcal_ctrl.0/kcal
+    echo "232 232 232" > /sys/devices/platform/kcal_ctrl.0/kcal
     echo "258" > /sys/devices/platform/kcal_ctrl.0/kcal_sat
 fi
