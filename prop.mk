@@ -349,5 +349,5 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.com.google.ime.corner_key_r=0 \
+ro.com.google.ime.corner_key_r=10 \
 ro.com.google.ime.kb_pad_port_b=1
