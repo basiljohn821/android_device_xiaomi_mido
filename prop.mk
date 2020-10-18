@@ -7,9 +7,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat-filter=speed \
 dalvik.vm.image-dex2oat-filter=speed
 
-# Pixel identification
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.build.fingerprint=google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
